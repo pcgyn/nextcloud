@@ -25,7 +25,7 @@ sed -i "s/max_input_time =.*/max_input_time = 3600/" /etc/php/7.3/cli/php.ini
 sed -i "s/post_max_size =.*/post_max_size = 10240M/" /etc/php/7.3/cli/php.ini
 sed -i "s/upload_max_filesize =.*/upload_max_filesize = 10240M/" /etc/php/7.3/cli/php.ini
 sed -i "s/max_file_uploads =.*/max_file_uploads = 100/" /etc/php/7.3/cli/php.ini
-sed -i "s/;date.timezone.*/date.timezone = Europe\/\Berlin/" /etc/php/7.3/cli/php.ini
+sed -i "s/;date.timezone.*/date.timezone = America\/Sao_Paulo/" /etc/php/7.3/cli/php.ini
 sed -i "s/;session.cookie_secure.*/session.cookie_secure = True/" /etc/php/7.3/cli/php.ini
 sed -i "s/;session.save_path =.*/session.save_path = \"N;700;\/var\/tmp\/sessions\"/" /etc/php/7.3/cli/php.ini
 sed -i '$aapc.enable_cli = 1' /etc/php/7.3/cli/php.ini
